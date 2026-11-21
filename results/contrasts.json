@@ -1,0 +1,3775 @@
+{
+ "contrasts": [
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-rand - T-paste",
+   "family": "A",
+   "diff_ens": 0.0496324294294771,
+   "lo": 0.03624205918052576,
+   "hi": 0.06318232881200053,
+   "p": 9.999000099990002e-05,
+   "sided": "greater",
+   "seed_diffs": [
+    0.1045587105497871,
+    0.05279367483196096,
+    0.01986662487770824
+   ],
+   "seed_mean": 0.05907300341981877,
+   "seed_sd": 0.042693791346136066,
+   "seeds_positive": 3,
+   "p_holm": 0.00039996000399960006
+  },
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-shuffle - T-paste",
+   "family": "B",
+   "diff_ens": 0.020971500037961333,
+   "lo": 0.009081635102743308,
+   "hi": 0.03318275070170611,
+   "p": 0.0007999200079992001,
+   "sided": "two",
+   "seed_diffs": [
+    0.006035275132827256,
+    0.0596051881817643,
+    -0.008884558878868187
+   ],
+   "seed_mean": 0.01891863481190779,
+   "seed_sd": 0.03601662228156289,
+   "seeds_positive": 2,
+   "p_holm": 0.0035996400359964006
+  },
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-rand - T-shuffle",
+   "family": "B",
+   "diff_ens": 0.028660929391515766,
+   "lo": 0.015647385277010154,
+   "hi": 0.04153561521594271,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.09852343541695985,
+    -0.006811513349803344,
+    0.028751183756576426
+   ],
+   "seed_mean": 0.040154368607910974,
+   "seed_sd": 0.05358532752992591,
+   "seeds_positive": 2,
+   "p_holm": 0.0015998400159984002
+  },
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-jitter - T-orig",
+   "family": "desc",
+   "diff_ens": 0.027838786884468503,
+   "lo": 0.014324102213635696,
+   "hi": 0.04163528561094805,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.1014196053228218,
+    0.035327860999379235,
+    -0.0503646615191205
+   ],
+   "seed_mean": 0.028794268267693508,
+   "seed_sd": 0.07610277124175005,
+   "seeds_positive": 2,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-paste - T-orig",
+   "family": "desc",
+   "diff_ens": 0.04672271106285658,
+   "lo": 0.032832813615354624,
+   "hi": 0.06069080461623281,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.052900751309908955,
+    0.04774020930983752,
+    0.017599684713068775
+   ],
+   "seed_mean": 0.03941354844427175,
+   "seed_sd": 0.019066758680914928,
+   "seeds_positive": 3,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-shuffle - T-orig",
+   "family": "desc",
+   "diff_ens": 0.06769421110081791,
+   "lo": 0.05279946603921461,
+   "hi": 0.08252812712171298,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.05893602644273621,
+    0.10734539749160182,
+    0.008715125834200588
+   ],
+   "seed_mean": 0.05833218325617954,
+   "seed_sd": 0.0493179084283656,
+   "seeds_positive": 3,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2 ResNet-18",
+   "contrast": "T-rand - T-orig",
+   "family": "desc",
+   "diff_ens": 0.09635514049233368,
+   "lo": 0.08134439815889079,
+   "hi": 0.1116696397522263,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.15745946185969606,
+    0.10053388414179848,
+    0.037466309590777014
+   ],
+   "seed_mean": 0.09848655186409051,
+   "seed_sd": 0.06002276922093404,
+   "seeds_positive": 3,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-rand - T-paste",
+   "family": "A",
+   "diff_ens": 0.0540124764345038,
+   "lo": 0.03867561786411863,
+   "hi": 0.06912138498617394,
+   "p": 9.999000099990002e-05,
+   "sided": "greater",
+   "seed_diffs": [
+    0.023299914331298854,
+    0.06430968304334611,
+    0.08453054249327696
+   ],
+   "seed_mean": 0.057380046622640644,
+   "seed_sd": 0.031197954291427223,
+   "seeds_positive": 3,
+   "p_holm": 0.00039996000399960006
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-shuffle - T-paste",
+   "family": "B",
+   "diff_ens": 0.011242406009077499,
+   "lo": -0.001676402332415523,
+   "hi": 0.02433275416894837,
+   "p": 0.08599140085991401,
+   "sided": "two",
+   "seed_diffs": [
+    -0.032401804941159684,
+    0.05299064548672405,
+    0.01600229599401687
+   ],
+   "seed_mean": 0.012197045513193746,
+   "seed_sd": 0.04282321328363857,
+   "seeds_positive": 2,
+   "p_holm": 0.17198280171982802
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-rand - T-shuffle",
+   "family": "B",
+   "diff_ens": 0.0427700704254263,
+   "lo": 0.028869232396763034,
+   "hi": 0.05634876527994975,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.05570171927245854,
+    0.011319037556622058,
+    0.06852824649926009
+   ],
+   "seed_mean": 0.045183001109446896,
+   "seed_sd": 0.030020092784754298,
+   "seeds_positive": 3,
+   "p_holm": 0.0015998400159984002
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-jitter - T-orig",
+   "family": "desc",
+   "diff_ens": -0.009325565603346908,
+   "lo": -0.023290405732446097,
+   "hi": 0.004527344014719821,
+   "p": 0.19118088191180882,
+   "sided": "two",
+   "seed_diffs": [
+    0.06223289421700162,
+    -0.06650716146165031,
+    -0.03696747686869101
+   ],
+   "seed_mean": -0.013747248037779899,
+   "seed_sd": 0.06743800674883198,
+   "seeds_positive": 1,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-paste - T-orig",
+   "family": "desc",
+   "diff_ens": -0.03510001818505304,
+   "lo": -0.04869811507585909,
+   "hi": -0.02141768448040154,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.033364721512988194,
+    -0.029347237794630332,
+    -0.05970974731266898
+   ],
+   "seed_mean": -0.018564087864770373,
+   "seed_sd": 0.04746494947434303,
+   "seeds_positive": 1,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-shuffle - T-orig",
+   "family": "desc",
+   "diff_ens": -0.02385761217597554,
+   "lo": -0.03736184461745809,
+   "hi": -0.010198064356281311,
+   "p": 0.0013998600139986002,
+   "sided": "two",
+   "seed_diffs": [
+    0.0009629165718285093,
+    0.02364340769209372,
+    -0.04370745131865211
+   ],
+   "seed_mean": -0.006367042351576628,
+   "seed_sd": 0.034268509972501665,
+   "seeds_positive": 2,
+   "p_holm": NaN
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "contrast": "T-rand - T-orig",
+   "family": "desc",
+   "diff_ens": 0.01891245824945076,
+   "lo": 0.005192049976292112,
+   "hi": 0.03220575915971342,
+   "p": 0.0065993400659934,
+   "sided": "two",
+   "seed_diffs": [
+    0.05666463584428705,
+    0.03496244524871578,
+    0.02482079518060798
+   ],
+   "seed_mean": 0.03881595875787027,
+   "seed_sd": 0.016267904653868986,
+   "seeds_positive": 3,
+   "p_holm": NaN
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-rand - T-paste",
+   "family": "A",
+   "diff_ens": 0.027751500740477664,
+   "lo": 0.014395336247401375,
+   "hi": 0.04101132577853206,
+   "p": 9.999000099990002e-05,
+   "sided": "greater",
+   "seed_diffs": [
+    0.024024336778387778,
+    0.057961651473135034,
+    -0.0041504418475559746
+   ],
+   "seed_mean": 0.025945182134655614,
+   "seed_sd": 0.031100567025885217,
+   "seeds_positive": 2,
+   "p_holm": 0.00039996000399960006
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-shuffle - T-paste",
+   "family": "B",
+   "diff_ens": 0.004503974464033611,
+   "lo": -0.007155306524003815,
+   "hi": 0.015922999305546574,
+   "p": 0.44555544445555445,
+   "sided": "two",
+   "seed_diffs": [
+    -0.019031607120500005,
+    0.0393938316363901,
+    -0.019135125506825057
+   ],
+   "seed_mean": 0.0004090330030216786,
+   "seed_sd": 0.03376186565308988,
+   "seeds_positive": 1,
+   "p_holm": 0.44555544445555445
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-rand - T-shuffle",
+   "family": "B",
+   "diff_ens": 0.023247526276444053,
+   "lo": 0.010424904767322534,
+   "hi": 0.035869342849027604,
+   "p": 0.0005999400059994001,
+   "sided": "two",
+   "seed_diffs": [
+    0.04305594389888778,
+    0.018567819836744937,
+    0.014984683659269082
+   ],
+   "seed_mean": 0.025536149131633934,
+   "seed_sd": 0.015277994722201132,
+   "seeds_positive": 3,
+   "p_holm": 0.0035996400359964006
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-jitter - T-orig",
+   "family": "desc",
+   "diff_ens": -0.029120602345446667,
+   "lo": -0.04260817893811578,
+   "hi": -0.015732593037390205,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    -0.12505311796790175,
+    0.012900178300319198,
+    0.0016421577568286327
+   ],
+   "seed_mean": -0.03683692730358464,
+   "seed_sd": 0.07660455585754528,
+   "seeds_positive": 2,
+   "p_holm": NaN
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-paste - T-orig",
+   "family": "desc",
+   "diff_ens": 0.003236655681484457,
+   "lo": -0.00925744970146273,
+   "hi": 0.015960031007403827,
+   "p": 0.6069393060693931,
+   "sided": "two",
+   "seed_diffs": [
+    -0.04252767256235562,
+    0.04346325321,
+    0.012809002850049656
+   ],
+   "seed_mean": 0.004581527832564676,
+   "seed_sd": 0.043581857896023646,
+   "seeds_positive": 2,
+   "p_holm": NaN
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-shuffle - T-orig",
+   "family": "desc",
+   "diff_ens": 0.007740630145518068,
+   "lo": -0.005459112978686613,
+   "hi": 0.020857656988749272,
+   "p": 0.2455754424557544,
+   "sided": "two",
+   "seed_diffs": [
+    -0.06155927968285563,
+    0.0828570848463901,
+    -0.006326122656775401
+   ],
+   "seed_mean": 0.004990560835586355,
+   "seed_sd": 0.07287024138776209,
+   "seeds_positive": 1,
+   "p_holm": NaN
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "contrast": "T-rand - T-orig",
+   "family": "desc",
+   "diff_ens": 0.03098815642196212,
+   "lo": 0.0157767657913744,
+   "hi": 0.04583969698004728,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    -0.018503335783967845,
+    0.10142490468313503,
+    0.008658561002493681
+   ],
+   "seed_mean": 0.03052670996722029,
+   "seed_sd": 0.06288368365276813,
+   "seeds_positive": 2,
+   "p_holm": NaN
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-rand - T-paste",
+   "family": "A",
+   "diff_ens": 0.007498474334958982,
+   "lo": -0.00462747890202587,
+   "hi": 0.019630059421186636,
+   "p": 0.11378862113788621,
+   "sided": "greater",
+   "seed_diffs": [
+    -0.005466547240918662,
+    0.018307166442589617,
+    0.010159356660251084
+   ],
+   "seed_mean": 0.00766665862064068,
+   "seed_sd": 0.012081288143814192,
+   "seeds_positive": 2,
+   "p_holm": 0.11378862113788621
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-shuffle - T-paste",
+   "family": "B",
+   "diff_ens": -0.013810864691478297,
+   "lo": -0.025779055582649674,
+   "hi": -0.0020133688425825044,
+   "p": 0.0245975402459754,
+   "sided": "two",
+   "seed_diffs": [
+    -0.032893130325169107,
+    -0.015755516770463718,
+    0.01363544875614714
+   ],
+   "seed_mean": -0.011671066113161896,
+   "seed_sd": 0.023531664214639068,
+   "seeds_positive": 1,
+   "p_holm": 0.0737926207379262
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-rand - T-shuffle",
+   "family": "B",
+   "diff_ens": 0.02130933902643728,
+   "lo": 0.00896497501583282,
+   "hi": 0.03351194906177673,
+   "p": 0.0005999400059994001,
+   "sided": "two",
+   "seed_diffs": [
+    0.027426583084250444,
+    0.034062683213053335,
+    -0.003476092095896055
+   ],
+   "seed_mean": 0.019337724733802575,
+   "seed_sd": 0.020034024433052754,
+   "seeds_positive": 2,
+   "p_holm": 0.0035996400359964006
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-jitter - T-orig",
+   "family": "desc",
+   "diff_ens": -0.008203761966158907,
+   "lo": -0.02079673577262721,
+   "hi": 0.0044028909194410515,
+   "p": 0.195980401959804,
+   "sided": "two",
+   "seed_diffs": [
+    0.006020075746695941,
+    0.017746670055861724,
+    -0.04872721640805017
+   ],
+   "seed_mean": -0.0083201568684975,
+   "seed_sd": 0.03548134860736913,
+   "seeds_positive": 2,
+   "p_holm": NaN
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-paste - T-orig",
+   "family": "desc",
+   "diff_ens": -0.031391200641772365,
+   "lo": -0.0448255082790135,
+   "hi": -0.017848232598611746,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    0.007245714959486782,
+    -0.028414296665648264,
+    -0.057418064827472415
+   ],
+   "seed_mean": -0.02619554884454463,
+   "seed_sd": 0.03238893693075349,
+   "seeds_positive": 1,
+   "p_holm": NaN
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-shuffle - T-orig",
+   "family": "desc",
+   "diff_ens": -0.04520206533325066,
+   "lo": -0.059741309315550016,
+   "hi": -0.03067866022977106,
+   "p": 0.00019998000199980003,
+   "sided": "two",
+   "seed_diffs": [
+    -0.025647415365682324,
+    -0.04416981343611198,
+    -0.043782616071325275
+   ],
+   "seed_mean": -0.037866614957706525,
+   "seed_sd": 0.01058390804250102,
+   "seeds_positive": 0,
+   "p_holm": NaN
+  },
+  {
+   "model": "M4 Swin-T",
+   "contrast": "T-rand - T-orig",
+   "family": "desc",
+   "diff_ens": -0.023892726306813383,
+   "lo": -0.0377119412300672,
+   "hi": -0.010008047739152204,
+   "p": 0.0005999400059994001,
+   "sided": "two",
+   "seed_diffs": [
+    0.0017791677185681198,
+    -0.010107130223058647,
+    -0.04725870816722133
+   ],
+   "seed_mean": -0.018528890223903954,
+   "seed_sd": 0.025580712440848887,
+   "seeds_positive": 1,
+   "p_holm": NaN
+  }
+ ],
+ "seed_variability": [
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "set": "rw",
+   "ens": 0.33601747593534603,
+   "ens_lo": 0.32034886549579905,
+   "ens_hi": 0.35140260551701546,
+   "seed_mean": 0.32227297528770027,
+   "seed_sd": 0.044576174351501394,
+   "seed_min": 0.28731032529113415,
+   "seed_max": 0.37246890174662567
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "set": "tn",
+   "ens": 0.9256784393277143,
+   "ens_lo": 0.8942808835932587,
+   "ens_hi": 0.951618967815058,
+   "seed_mean": 0.8961839370251147,
+   "seed_sd": 0.028303259955740907,
+   "seed_min": 0.8762615021839709,
+   "seed_max": 0.9285816641257267
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "set": "rw",
+   "ens": 0.36385626281981454,
+   "ens_lo": 0.34841231846530474,
+   "ens_hi": 0.3802799391168361,
+   "seed_mean": 0.3510672435553938,
+   "seed_sd": 0.034154194876004754,
+   "seed_min": 0.32210424022750517,
+   "seed_max": 0.38872993061395594
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "set": "tn",
+   "ens": 0.9191714413265532,
+   "ens_lo": 0.885513245012364,
+   "ens_hi": 0.9471279921038774,
+   "seed_mean": 0.8801969370370181,
+   "seed_sd": 0.03786565470723714,
+   "seed_min": 0.841682735896291,
+   "seed_max": 0.9173788817985153
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "set": "rw",
+   "ens": 0.3827401869982026,
+   "ens_lo": 0.3659746587402347,
+   "ens_hi": 0.39872029527613606,
+   "seed_mean": 0.361686523731972,
+   "seed_sd": 0.025636279499525322,
+   "seed_min": 0.3402110766010431,
+   "seed_max": 0.39006858645969444
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "set": "tn",
+   "ens": 0.921888896546903,
+   "ens_lo": 0.8880023434507488,
+   "ens_hi": 0.9484521569558492,
+   "seed_mean": 0.8857205955848154,
+   "seed_sd": 0.0034169818853851505,
+   "seed_min": 0.8828923165143209,
+   "seed_max": 0.8895172533948305
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "set": "rw",
+   "ens": 0.40371168703616395,
+   "ens_lo": 0.3876576601071761,
+   "ens_hi": 0.4190495099677504,
+   "seed_mean": 0.38060515854387983,
+   "seed_sd": 0.0340730604049702,
+   "seed_min": 0.34624635173387036,
+   "seed_max": 0.4143850963169428
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "set": "tn",
+   "ens": 0.8804230663474168,
+   "ens_lo": 0.8373621024661922,
+   "ens_hi": 0.9147403989975873,
+   "seed_mean": 0.8595700292042828,
+   "seed_sd": 0.015820049548722435,
+   "seed_min": 0.8417244632865488,
+   "seed_max": 0.8718730193359262
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "set": "rw",
+   "ens": 0.4323726164276797,
+   "ens_lo": 0.4158988788070575,
+   "ens_hi": 0.4485497948030799,
+   "seed_mean": 0.42075952715179077,
+   "seed_sd": 0.020826995968115818,
+   "seed_min": 0.40757358296713947,
+   "seed_max": 0.4447697871508302
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "set": "tn",
+   "ens": 0.9079223037772969,
+   "ens_lo": 0.8716120133089716,
+   "ens_hi": 0.9375915709874525,
+   "seed_mean": 0.8779079473162175,
+   "seed_sd": 0.0034908553406558032,
+   "seed_min": 0.873918632732904,
+   "seed_max": 0.8804027024742038
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "set": "rw",
+   "ens": 0.3929906659764944,
+   "ens_lo": 0.37631573980070204,
+   "ens_hi": 0.40898700727941817,
+   "seed_mean": 0.356413857625769,
+   "seed_sd": 0.021472051312243307,
+   "seed_min": 0.3341193857469647,
+   "seed_max": 0.3769561124735881
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "set": "tn",
+   "ens": 0.9068169706267658,
+   "ens_lo": 0.8692307520503547,
+   "ens_hi": 0.9347652835196443,
+   "seed_mean": 0.8913871516875345,
+   "seed_sd": 0.01526841995394143,
+   "seed_min": 0.8745812467422059,
+   "seed_max": 0.9044048432770236
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "set": "rw",
+   "ens": 0.3836651003731475,
+   "ens_lo": 0.3678096234057049,
+   "ens_hi": 0.39961995904953734,
+   "seed_mean": 0.34266660958798917,
+   "seed_sd": 0.052398033549365855,
+   "seed_min": 0.291658913195104,
+   "seed_max": 0.3963522799639663
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "set": "tn",
+   "ens": 0.9302821213646552,
+   "ens_lo": 0.8974961657261316,
+   "ens_hi": 0.9569971385065873,
+   "seed_mean": 0.8874793379840252,
+   "seed_sd": 0.01569503773745822,
+   "seed_min": 0.8698813070035435,
+   "seed_max": 0.9000288452803819
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "set": "rw",
+   "ens": 0.35789064779144136,
+   "ens_lo": 0.34177873757752986,
+   "ens_hi": 0.3731053367597138,
+   "seed_mean": 0.33784976976099873,
+   "seed_sd": 0.026308287564382447,
+   "seed_min": 0.31724636516091914,
+   "seed_max": 0.3674841072599529
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "set": "tn",
+   "ens": 0.9458814915891129,
+   "ens_lo": 0.9186566079498435,
+   "ens_hi": 0.9688438572377224,
+   "seed_mean": 0.9007723009554606,
+   "seed_sd": 0.025250212473802117,
+   "seed_min": 0.8716682865913974,
+   "seed_max": 0.9168377449199369
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "set": "rw",
+   "ens": 0.36913305380051886,
+   "ens_lo": 0.3530042125970362,
+   "ens_hi": 0.385100748399171,
+   "seed_mean": 0.35004681527419246,
+   "seed_sd": 0.027522551203531385,
+   "seed_min": 0.333248661154936,
+   "seed_max": 0.38180948234884804
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "set": "tn",
+   "ens": 0.9015500920923919,
+   "ens_lo": 0.8628478376357689,
+   "ens_hi": 0.9341244613046121,
+   "seed_mean": 0.8758440351064144,
+   "seed_sd": 0.01830157332092345,
+   "seed_min": 0.8577736273894145,
+   "seed_max": 0.894368330582513
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "set": "rw",
+   "ens": 0.41190312422594516,
+   "ens_lo": 0.3951270150713536,
+   "ens_hi": 0.4281975835202985,
+   "seed_mean": 0.39522981638363935,
+   "seed_sd": 0.005789859338973082,
+   "seed_min": 0.39078402159125175,
+   "seed_max": 0.4017769076541961
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "set": "tn",
+   "ens": 0.9336312789161209,
+   "ens_lo": 0.9017081408908623,
+   "ens_hi": 0.9582145220931185,
+   "seed_mean": 0.8816776450194981,
+   "seed_sd": 0.003718488417239778,
+   "seed_min": 0.877468212538635,
+   "seed_max": 0.884515617525459
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "set": "rw",
+   "ens": 0.41496005961347926,
+   "ens_lo": 0.3981133768805473,
+   "ens_hi": 0.43216607197812434,
+   "seed_mean": 0.3961231424291863,
+   "seed_sd": 0.05717587692927461,
+   "seed_min": 0.3422987241505954,
+   "seed_max": 0.45614546936289657
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "set": "tn",
+   "ens": 0.9560337871860121,
+   "ens_lo": 0.929630665625708,
+   "ens_hi": 0.9774045140046759,
+   "seed_mean": 0.922063466969499,
+   "seed_sd": 0.019384056366107322,
+   "seed_min": 0.9019460034244187,
+   "seed_max": 0.9406196917010653
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "set": "rw",
+   "ens": 0.3858394572680326,
+   "ens_lo": 0.369231932895102,
+   "ens_hi": 0.4019237759662197,
+   "seed_mean": 0.3592862151256016,
+   "seed_sd": 0.03044400127340675,
+   "seed_min": 0.3310923513949948,
+   "seed_max": 0.3915673915308955
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "set": "tn",
+   "ens": 0.9399854416087002,
+   "ens_lo": 0.9107904732476234,
+   "ens_hi": 0.9647359226180664,
+   "seed_mean": 0.9152365807131644,
+   "seed_sd": 0.017730562104939573,
+   "seed_min": 0.897837371274835,
+   "seed_max": 0.9332808879823293
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "set": "rw",
+   "ens": 0.4181967152949637,
+   "ens_lo": 0.4012271641316603,
+   "ens_hi": 0.4353799882500181,
+   "seed_mean": 0.40070467026175094,
+   "seed_sd": 0.014038376825051609,
+   "seed_min": 0.3857619773605954,
+   "seed_max": 0.41361779680054095
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "set": "tn",
+   "ens": 0.9438925654468128,
+   "ens_lo": 0.9171804014591091,
+   "ens_hi": 0.9668427967454981,
+   "seed_mean": 0.9061051651561284,
+   "seed_sd": 0.011757716599636812,
+   "seed_min": 0.892539168352308,
+   "seed_max": 0.9133536715347969
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "set": "rw",
+   "ens": 0.42270068975899733,
+   "ens_lo": 0.40632766263728776,
+   "ens_hi": 0.4393213975764303,
+   "seed_mean": 0.40111370326477264,
+   "seed_sd": 0.021533604200532363,
+   "seed_min": 0.38359911111729145,
+   "seed_max": 0.4251558089969855
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "set": "tn",
+   "ens": 0.9121135462479951,
+   "ens_lo": 0.8754294486337207,
+   "ens_hi": 0.9416001326529063,
+   "seed_mean": 0.893034786960787,
+   "seed_sd": 0.012886603181839549,
+   "seed_min": 0.878229611401146,
+   "seed_max": 0.9017295140722402
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "set": "rw",
+   "ens": 0.4459482160354414,
+   "ens_lo": 0.42942738085531296,
+   "ens_hi": 0.462115358698224,
+   "seed_mean": 0.42664985239640657,
+   "seed_sd": 0.02449538403197493,
+   "seed_min": 0.39858379477656053,
+   "seed_max": 0.44372362883373045
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "set": "tn",
+   "ens": 0.9209100463346527,
+   "ens_lo": 0.8870524354280644,
+   "ens_hi": 0.9502437885208592,
+   "seed_mean": 0.899167297392839,
+   "seed_sd": 0.01580502760175326,
+   "seed_min": 0.881041809757802,
+   "seed_max": 0.9100736574899214
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "set": "rw",
+   "ens": 0.5420247391611618,
+   "ens_lo": 0.5254628707859805,
+   "ens_hi": 0.5582588416880389,
+   "seed_mean": 0.524159110103663,
+   "seed_sd": 0.020260801904050656,
+   "seed_min": 0.5074014887152368,
+   "seed_max": 0.546676049664413
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "set": "tn",
+   "ens": 0.9683029590902058,
+   "ens_lo": 0.9463730573499054,
+   "ens_hi": 0.9859505776647491,
+   "seed_mean": 0.9448800690046624,
+   "seed_sd": 0.011171015963975644,
+   "seed_min": 0.9321404739986541,
+   "seed_max": 0.9530016190528522
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "set": "rw",
+   "ens": 0.5338209771950029,
+   "ens_lo": 0.5161982034655074,
+   "ens_hi": 0.550813938839774,
+   "seed_mean": 0.5158389532351655,
+   "seed_sd": 0.019213212550884082,
+   "seed_min": 0.4979488332563628,
+   "seed_max": 0.5361464619872008
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "set": "tn",
+   "ens": 0.970407781381359,
+   "ens_lo": 0.9499437435393242,
+   "ens_hi": 0.9864000488718533,
+   "seed_mean": 0.9528341641228923,
+   "seed_sd": 0.004352166475797438,
+   "seed_min": 0.9486690773722417,
+   "seed_max": 0.9573519471789721
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "set": "rw",
+   "ens": 0.5106335385193894,
+   "ens_lo": 0.49319883945732584,
+   "ens_hi": 0.5269254637883993,
+   "seed_mean": 0.4979635612591183,
+   "seed_sd": 0.014453036395333078,
+   "seed_min": 0.48925798483694055,
+   "seed_max": 0.5146472036747236
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "set": "tn",
+   "ens": 0.9545005523775215,
+   "ens_lo": 0.9289996216665997,
+   "ens_hi": 0.9760021678557536,
+   "seed_mean": 0.9335608916699741,
+   "seed_sd": 0.01148403521533091,
+   "seed_min": 0.9248202429151665,
+   "seed_max": 0.9465674107728209
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "set": "rw",
+   "ens": 0.4968226738279111,
+   "ens_lo": 0.4799059678692781,
+   "ens_hi": 0.5137149509199945,
+   "seed_mean": 0.4862924951459564,
+   "seed_sd": 0.014860900673859215,
+   "seed_min": 0.47422997849522713,
+   "seed_max": 0.5028934335930877
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "set": "tn",
+   "ens": 0.9362485229384946,
+   "ens_lo": 0.9036199230496555,
+   "ens_hi": 0.9634518036585372,
+   "seed_mean": 0.919618493043122,
+   "seed_sd": 0.010783775683509949,
+   "seed_min": 0.9126132857910596,
+   "seed_max": 0.9320365395358312
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "set": "rw",
+   "ens": 0.5181320128543484,
+   "ens_lo": 0.5007063312424358,
+   "ens_hi": 0.5352303572697873,
+   "seed_mean": 0.505630219879759,
+   "seed_sd": 0.005398798663181433,
+   "seed_min": 0.49941734149719164,
+   "seed_max": 0.509180656433805
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "set": "tn",
+   "ens": 0.9658717843540267,
+   "ens_lo": 0.9428115610260656,
+   "ens_hi": 0.9836886606311752,
+   "seed_mean": 0.9424753151771951,
+   "seed_sd": 0.004110206471782291,
+   "seed_min": 0.9384201948726868,
+   "seed_max": 0.9466384775226618
+  }
+ ],
+ "eligibility": {
+  "cardboard": {
+   "> 25% of object cut by square crop": 0,
+   "background strip < 8 px": 1,
+   "eligible": 11,
+   "no usable polygon (label mismatch)": 0,
+   "no usable polygon (no reference)": 0,
+   "no usable polygon (whole-frame polygon)": 37,
+   "object > 75% of frame": 12,
+   "total": 61
+  },
+  "glass": {
+   "> 25% of object cut by square crop": 2,
+   "background strip < 8 px": 2,
+   "eligible": 65,
+   "no usable polygon (label mismatch)": 1,
+   "no usable polygon (no reference)": 1,
+   "no usable polygon (whole-frame polygon)": 0,
+   "object > 75% of frame": 3,
+   "total": 74
+  },
+  "metal": {
+   "> 25% of object cut by square crop": 2,
+   "background strip < 8 px": 2,
+   "eligible": 52,
+   "no usable polygon (label mismatch)": 0,
+   "no usable polygon (no reference)": 0,
+   "no usable polygon (whole-frame polygon)": 0,
+   "object > 75% of frame": 6,
+   "total": 62
+  },
+  "paper": {
+   "> 25% of object cut by square crop": 2,
+   "background strip < 8 px": 12,
+   "eligible": 48,
+   "no usable polygon (label mismatch)": 0,
+   "no usable polygon (no reference)": 0,
+   "no usable polygon (whole-frame polygon)": 2,
+   "object > 75% of frame": 25,
+   "total": 89
+  },
+  "plastic": {
+   "> 25% of object cut by square crop": 2,
+   "background strip < 8 px": 2,
+   "eligible": 64,
+   "no usable polygon (label mismatch)": 1,
+   "no usable polygon (no reference)": 2,
+   "no usable polygon (whole-frame polygon)": 0,
+   "object > 75% of frame": 1,
+   "total": 72
+  },
+  "trash": {
+   "> 25% of object cut by square crop": 0,
+   "background strip < 8 px": 0,
+   "eligible": 18,
+   "no usable polygon (label mismatch)": 1,
+   "no usable polygon (no reference)": 0,
+   "no usable polygon (whole-frame polygon)": 0,
+   "object > 75% of frame": 1,
+   "total": 20
+  },
+  "total": {
+   "> 25% of object cut by square crop": 8,
+   "background strip < 8 px": 19,
+   "eligible": 258,
+   "no usable polygon (label mismatch)": 3,
+   "no usable polygon (no reference)": 3,
+   "no usable polygon (whole-frame polygon)": 39,
+   "object > 75% of frame": 48,
+   "total": 378
+  }
+ },
+ "bg_gap_sensitivity": [
+  {
+   "model": "M1a colour SVM",
+   "regime": "T-orig",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.23255813953488372,
+   "lo": 0.19603174603174606,
+   "hi": 0.2687560562015504
+  },
+  {
+   "model": "M1a colour SVM",
+   "regime": "T-orig",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.23771929824561405,
+   "lo": 0.2,
+   "hi": 0.2761061946902654
+  },
+  {
+   "model": "M1a colour SVM",
+   "regime": "T-orig",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.24487804878048783,
+   "lo": 0.20307692307692307,
+   "hi": 0.283751695580781
+  },
+  {
+   "model": "M1a colour SVM",
+   "regime": "T-orig",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.22753036437246965,
+   "lo": 0.18921161825726138,
+   "hi": 0.2631652927499471
+  },
+  {
+   "model": "M1a colour SVM",
+   "regime": "T-orig",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.24919786096256683,
+   "lo": 0.20546155869203117,
+   "hi": 0.2943756906077348
+  },
+  {
+   "model": "M1a colour SVM",
+   "regime": "T-orig",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.2290050343175343,
+   "lo": 0.19537841784808704,
+   "hi": 0.2652589601106709
+  },
+  {
+   "model": "M1b SIFT SVM",
+   "regime": "T-orig",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.002325581395348836,
+   "lo": -0.025396825396825397,
+   "hi": 0.030827067669172935
+  },
+  {
+   "model": "M1b SIFT SVM",
+   "regime": "T-orig",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": -0.0008771929824561411,
+   "lo": -0.030701754385964907,
+   "hi": 0.028076754385964877
+  },
+  {
+   "model": "M1b SIFT SVM",
+   "regime": "T-orig",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.012682926829268292,
+   "lo": -0.01743589743589743,
+   "hi": 0.043317972350230424
+  },
+  {
+   "model": "M1b SIFT SVM",
+   "regime": "T-orig",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.004048582995951417,
+   "lo": -0.0236745180285553,
+   "hi": 0.0323956804361501
+  },
+  {
+   "model": "M1b SIFT SVM",
+   "regime": "T-orig",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.014973262032085561,
+   "lo": -0.016574585635359122,
+   "hi": 0.046153846153846156
+  },
+  {
+   "model": "M1b SIFT SVM",
+   "regime": "T-orig",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": -0.009502800440300442,
+   "lo": -0.04175337971079385,
+   "hi": 0.0205694285310603
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.08992248062015504,
+   "lo": 0.060290670955882364,
+   "hi": 0.12047650293713283
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.10175438596491228,
+   "lo": 0.07079646017699115,
+   "hi": 0.13510502172863342
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.1073170731707317,
+   "lo": 0.07024336043360434,
+   "hi": 0.1453702049696553
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.09473684210526316,
+   "lo": 0.06666666666666667,
+   "hi": 0.12706049059299834
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.11657754010695186,
+   "lo": 0.0799950738916256,
+   "hi": 0.15614973262032086
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.1294844276094276,
+   "lo": 0.09150272448790105,
+   "hi": 0.1679094217650833
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.07364341085271318,
+   "lo": 0.04677025224351201,
+   "hi": 0.10078703703703694
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.07982456140350877,
+   "lo": 0.05045871559633028,
+   "hi": 0.10932402578589019
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.09365853658536585,
+   "lo": 0.060512195121951204,
+   "hi": 0.12736751027471338
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.07692307692307693,
+   "lo": 0.04821912977875453,
+   "hi": 0.10682730923694779
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.0983957219251337,
+   "lo": 0.06309864980648211,
+   "hi": 0.1349889633637513
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.0961519845894846,
+   "lo": 0.055794242057410466,
+   "hi": 0.13525833971655624
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.015503875968992244,
+   "lo": 0.0007751937984496152,
+   "hi": 0.031538461538461536
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.018421052631578946,
+   "lo": 0.0009006998069498058,
+   "hi": 0.03660714285714285
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.0224390243902439,
+   "lo": 0.003940886699507391,
+   "hi": 0.04147643536142833
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.016194331983805665,
+   "lo": -6.489234112565015e-19,
+   "hi": 0.03245783596457448
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.025668449197860963,
+   "lo": 0.006775915347879009,
+   "hi": 0.04808845445778907
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.02523350492100492,
+   "lo": 0.005960063412538395,
+   "hi": 0.04726470778676656
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.02945736434108527,
+   "lo": 0.012598279381743946,
+   "hi": 0.047580645161290326
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.02807017543859649,
+   "lo": 0.010434782608695653,
+   "hi": 0.04824637023593466
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.03317073170731707,
+   "lo": 0.012676858443225582,
+   "hi": 0.054358974358974355
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.030769230769230767,
+   "lo": 0.012048192771084338,
+   "hi": 0.05062240663900414
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.03208556149732621,
+   "lo": 0.00994475138121547,
+   "hi": 0.05414598745200861
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.0477381993006993,
+   "lo": 0.016601956916517134,
+   "hi": 0.08771892090277071
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.13178294573643412,
+   "lo": 0.09926414884135472,
+   "hi": 0.16511715997181114
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.14210526315789473,
+   "lo": 0.10982142857142858,
+   "hi": 0.18000413223140493
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.15414634146341463,
+   "lo": 0.11555399061032863,
+   "hi": 0.19502487562189055
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.140080971659919,
+   "lo": 0.10857089750398302,
+   "hi": 0.17490390915046952
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.16470588235294117,
+   "lo": 0.12595327277835006,
+   "hi": 0.20790960451977403
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.16852734071484068,
+   "lo": 0.12907139312214844,
+   "hi": 0.207579108891551
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.10620155038759689,
+   "lo": 0.0774193548387097,
+   "hi": 0.1356181647300068
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.1087719298245614,
+   "lo": 0.08050469128329298,
+   "hi": 0.1394736842105263
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.12097560975609757,
+   "lo": 0.08615311004784687,
+   "hi": 0.15721723137865173
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.11174089068825911,
+   "lo": 0.08178137651821862,
+   "hi": 0.14346415131225254
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.12513368983957218,
+   "lo": 0.08876701835525365,
+   "hi": 0.16045197740112996
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.13396658896658897,
+   "lo": 0.09382805788385762,
+   "hi": 0.17519245062347277
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.01705426356589147,
+   "lo": 0.0007459942932396813,
+   "hi": 0.03410898855666297
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.020175438596491225,
+   "lo": 0.001801399613899612,
+   "hi": 0.038019505532987795
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.02048780487804878,
+   "lo": 0.0009567110365314365,
+   "hi": 0.04075923699040342
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.017813765182186237,
+   "lo": 2.245783089231388e-19,
+   "hi": 0.035059760956175294
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.02352941176470588,
+   "lo": 0.0010810810810810791,
+   "hi": 0.04512994350282485
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.027661956099456098,
+   "lo": 0.0026816939484525094,
+   "hi": 0.05962903046313206
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.044961240310077526,
+   "lo": 0.022654359879032263,
+   "hi": 0.06774546738874498
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.04649122807017544,
+   "lo": 0.02442603759060876,
+   "hi": 0.07168425232584524
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.062439024390243895,
+   "lo": 0.03696573095151295,
+   "hi": 0.08923076923076922
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.047773279352226715,
+   "lo": 0.02572084763417174,
+   "hi": 0.07114896545102493
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.06310160427807486,
+   "lo": 0.0356003667579132,
+   "hi": 0.09214659685863875
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.07089856902356902,
+   "lo": 0.035905950936955075,
+   "hi": 0.1066518280937301
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.0821705426356589,
+   "lo": 0.057255184331797236,
+   "hi": 0.10923255813953488
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.08771929824561403,
+   "lo": 0.060525762936753644,
+   "hi": 0.11896658592191507
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.09268292682926829,
+   "lo": 0.06130653266331658,
+   "hi": 0.12464970121574277
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.08502024291497975,
+   "lo": 0.058432798520517824,
+   "hi": 0.11554212269695162
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.0962566844919786,
+   "lo": 0.06338081879547644,
+   "hi": 0.13220431601370752
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.12801856708106707,
+   "lo": 0.08619202121152515,
+   "hi": 0.16525635798433277
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.08139534883720931,
+   "lo": 0.05317460317460318,
+   "hi": 0.11023957421988916
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.08859649122807019,
+   "lo": 0.0584070796460177,
+   "hi": 0.12124215263595792
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.09951219512195121,
+   "lo": 0.06731707317073171,
+   "hi": 0.13333333333333333
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.08502024291497977,
+   "lo": 0.056537370660223754,
+   "hi": 0.11494345944436687
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.10695187165775401,
+   "lo": 0.0711864406779661,
+   "hi": 0.14612234208216537
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.10576291763791763,
+   "lo": 0.06677229735710116,
+   "hi": 0.14210590522021344
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.012403100775193798,
+   "lo": 0.0007575757575757574,
+   "hi": 0.024409899621325955
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.013157894736842105,
+   "lo": -1.9003817538628804e-18,
+   "hi": 0.026785714285714284
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.011707317073170733,
+   "lo": -0.0019328384588193704,
+   "hi": 0.02488479262672811
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.012955465587044536,
+   "lo": 0.0008161612823266966,
+   "hi": 0.02625582611638388
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.012834224598930482,
+   "lo": -0.0019735382869522596,
+   "hi": 0.027807486631016037
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.010243622118622118,
+   "lo": -0.005273572162958851,
+   "hi": 0.027273688576623968
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.037209302325581395,
+   "lo": 0.018517094017094015,
+   "hi": 0.058064516129032254
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.04298245614035088,
+   "lo": 0.022879497472494795,
+   "hi": 0.06548821298430876
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.0448780487804878,
+   "lo": 0.02311557788944724,
+   "hi": 0.06766245694603905
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.03805668016194332,
+   "lo": 0.019916137917465937,
+   "hi": 0.05892116182572615
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.051336898395721926,
+   "lo": 0.02841530054644809,
+   "hi": 0.07739215201691516
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.06229514698264699,
+   "lo": 0.028761872930990577,
+   "hi": 0.09665472013858661
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.08294573643410852,
+   "lo": 0.06176355698529412,
+   "hi": 0.1068194829979181
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.08771929824561403,
+   "lo": 0.06338698308270677,
+   "hi": 0.11293296187272217
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.09853658536585364,
+   "lo": 0.07335317613709573,
+   "hi": 0.12410426540284358
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.08663967611336032,
+   "lo": 0.06454053175054882,
+   "hi": 0.11042582551607823
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.10267379679144382,
+   "lo": 0.07540304320260845,
+   "hi": 0.13004939567686882
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.1251098322973323,
+   "lo": 0.08846878125986869,
+   "hi": 0.15996871761866396
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.05891472868217055,
+   "lo": 0.03984002266221374,
+   "hi": 0.0795275590551181
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.06403508771929824,
+   "lo": 0.04358407079646018,
+   "hi": 0.0869959722533005
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.0702439024390244,
+   "lo": 0.047753210690732385,
+   "hi": 0.09289266404111875
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.061538461538461535,
+   "lo": 0.042795588737617726,
+   "hi": 0.08276136831982413
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.07593582887700535,
+   "lo": 0.05169878715180594,
+   "hi": 0.1027624309392265
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.09659171846671845,
+   "lo": 0.0610745158831942,
+   "hi": 0.13169194265955866
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.022480620155038756,
+   "lo": 0.007809495192307693,
+   "hi": 0.0384071906354515
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.02894736842105263,
+   "lo": 0.012612612612612612,
+   "hi": 0.047323737684729056
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.03219512195121951,
+   "lo": 0.014358974358974357,
+   "hi": 0.05161290322580646
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.024291497975708502,
+   "lo": 0.008298755186721992,
+   "hi": 0.04269335029454967
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.03529411764705882,
+   "lo": 0.015819209039548022,
+   "hi": 0.05595854922279793
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.03939410126910128,
+   "lo": 0.012813964239442338,
+   "hi": 0.07212993441132219
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "subset": "all eligible (n=258)",
+   "n": 258,
+   "n_by_class": {
+    "cardboard": 11,
+    "glass": 65,
+    "metal": 52,
+    "paper": 48,
+    "plastic": 64,
+    "trash": 18
+   },
+   "bg_gap": 0.03953488372093023,
+   "lo": 0.024598782260996002,
+   "hi": 0.055645161290322584
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "subset": "object 5-60% of frame",
+   "n": 228,
+   "n_by_class": {
+    "cardboard": 8,
+    "glass": 63,
+    "metal": 46,
+    "paper": 38,
+    "plastic": 56,
+    "trash": 17
+   },
+   "bg_gap": 0.04298245614035088,
+   "lo": 0.026082104037267077,
+   "hi": 0.06238551713322356
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "subset": "crop loss <= 10%",
+   "n": 205,
+   "n_by_class": {
+    "cardboard": 7,
+    "glass": 50,
+    "metal": 42,
+    "paper": 37,
+    "plastic": 53,
+    "trash": 16
+   },
+   "bg_gap": 0.045853658536585365,
+   "lo": 0.026665024630541868,
+   "hi": 0.0650728830532992
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "subset": "background strip >= 16 px",
+   "n": 247,
+   "n_by_class": {
+    "cardboard": 10,
+    "glass": 65,
+    "metal": 52,
+    "paper": 43,
+    "plastic": 59,
+    "trash": 18
+   },
+   "bg_gap": 0.04129554655870445,
+   "lo": 0.025725557832991713,
+   "hi": 0.05943775100401606
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "subset": "all three stricter",
+   "n": 187,
+   "n_by_class": {
+    "cardboard": 5,
+    "glass": 50,
+    "metal": 38,
+    "paper": 33,
+    "plastic": 46,
+    "trash": 15
+   },
+   "bg_gap": 0.04919786096256684,
+   "lo": 0.028869365928189453,
+   "hi": 0.07103825136612021
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "subset": "class-balanced (mean of 6 class means)",
+   "n": 258,
+   "n_by_class": null,
+   "bg_gap": 0.06342309311059312,
+   "lo": 0.038772082187760154,
+   "hi": 0.0910415948123079
+  }
+ ],
+ "sorting_errors": [
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 1341,
+   "recyclable_to_trash_rate": 0.4336998706338939,
+   "r2t_lo": 0.4163660280406475,
+   "r2t_hi": 0.4520017556846142,
+   "trash_to_recycling": 219,
+   "trash_to_recycling_rate": 0.44242424242424244,
+   "t2r_lo": 0.39793533086776733,
+   "t2r_hi": 0.48771468997001644,
+   "wrong_material": 755,
+   "wrong_material_rate": 0.2441785252263907,
+   "wm_lo": 0.22984350249171256,
+   "wm_hi": 0.25833950117230414,
+   "recall_cardboard": 0.21258134490238612,
+   "recall_glass": 0.1,
+   "recall_metal": 0.5544303797468354,
+   "recall_paper": 0.49,
+   "recall_plastic": 0.18783930510314875,
+   "recall_trash": 0.5575757575757576
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 1042,
+   "recyclable_to_trash_rate": 0.3369987063389392,
+   "r2t_lo": 0.32060532420873644,
+   "r2t_hi": 0.35376966223120687,
+   "trash_to_recycling": 258,
+   "trash_to_recycling_rate": 0.5212121212121212,
+   "t2r_lo": 0.4764635868370533,
+   "t2r_hi": 0.5656422168016434,
+   "wrong_material": 967,
+   "wrong_material_rate": 0.3127425614489004,
+   "wm_lo": 0.29642821848392487,
+   "wm_hi": 0.3286221049726009,
+   "recall_cardboard": 0.27114967462039047,
+   "recall_glass": 0.20476190476190476,
+   "recall_metal": 0.3632911392405063,
+   "recall_paper": 0.478,
+   "recall_plastic": 0.3756786102062975,
+   "recall_trash": 0.47878787878787876
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 781,
+   "recyclable_to_trash_rate": 0.2525873221216041,
+   "r2t_lo": 0.2368161428719759,
+   "r2t_hi": 0.2681179217994213,
+   "trash_to_recycling": 319,
+   "trash_to_recycling_rate": 0.6444444444444445,
+   "t2r_lo": 0.6011919364333153,
+   "t2r_hi": 0.6861647129058838,
+   "wrong_material": 1046,
+   "wrong_material_rate": 0.3382923673997413,
+   "wm_lo": 0.3210271880030632,
+   "wm_hi": 0.3547825895249843,
+   "recall_cardboard": 0.27331887201735355,
+   "recall_glass": 0.21904761904761905,
+   "recall_metal": 0.6329113924050633,
+   "recall_paper": 0.552,
+   "recall_plastic": 0.2942453854505972,
+   "recall_trash": 0.35555555555555557
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 454,
+   "recyclable_to_trash_rate": 0.14683053040103494,
+   "r2t_lo": 0.13394895419478417,
+   "r2t_hi": 0.15886447243392468,
+   "trash_to_recycling": 356,
+   "trash_to_recycling_rate": 0.7191919191919192,
+   "t2r_lo": 0.6810634225606919,
+   "t2r_hi": 0.7586240336298943,
+   "wrong_material": 1202,
+   "wrong_material_rate": 0.388745148771022,
+   "wm_lo": 0.3710257463157177,
+   "wm_hi": 0.4056819505989552,
+   "recall_cardboard": 0.22342733188720174,
+   "recall_glass": 0.2904761904761905,
+   "recall_metal": 0.7354430379746836,
+   "recall_paper": 0.652,
+   "recall_plastic": 0.3300760043431053,
+   "recall_trash": 0.2808080808080808
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 747,
+   "recyclable_to_trash_rate": 0.24159120310478654,
+   "r2t_lo": 0.22640431970357894,
+   "r2t_hi": 0.2564273439347744,
+   "trash_to_recycling": 267,
+   "trash_to_recycling_rate": 0.5393939393939394,
+   "t2r_lo": 0.49602763205766676,
+   "t2r_hi": 0.5831743121147156,
+   "wrong_material": 943,
+   "wrong_material_rate": 0.304980595084088,
+   "wm_lo": 0.2892601743340492,
+   "wm_hi": 0.3209563516080379,
+   "recall_cardboard": 0.22342733188720174,
+   "recall_glass": 0.34285714285714286,
+   "recall_metal": 0.7379746835443038,
+   "recall_paper": 0.576,
+   "recall_plastic": 0.30836047774158526,
+   "recall_trash": 0.46060606060606063
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 568,
+   "recyclable_to_trash_rate": 0.18369987063389392,
+   "r2t_lo": 0.1706219706684351,
+   "r2t_hi": 0.19762248508632183,
+   "trash_to_recycling": 342,
+   "trash_to_recycling_rate": 0.6909090909090909,
+   "t2r_lo": 0.6492656216025352,
+   "t2r_hi": 0.7300971150398254,
+   "wrong_material": 1186,
+   "wrong_material_rate": 0.3835705045278137,
+   "wm_lo": 0.366709741204977,
+   "wm_hi": 0.40000161752104757,
+   "recall_cardboard": 0.3318872017353579,
+   "recall_glass": 0.20952380952380953,
+   "recall_metal": 0.6088607594936709,
+   "recall_paper": 0.522,
+   "recall_plastic": 0.38545059717698155,
+   "recall_trash": 0.3090909090909091
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 423,
+   "recyclable_to_trash_rate": 0.13680465717981888,
+   "r2t_lo": 0.12455954365432262,
+   "r2t_hi": 0.14895008951425553,
+   "trash_to_recycling": 378,
+   "trash_to_recycling_rate": 0.7636363636363637,
+   "t2r_lo": 0.725969809293747,
+   "t2r_hi": 0.8012760981917381,
+   "wrong_material": 1297,
+   "wrong_material_rate": 0.41946959896507113,
+   "wm_lo": 0.4026369243860245,
+   "wm_hi": 0.43681440874934196,
+   "recall_cardboard": 0.2885032537960954,
+   "recall_glass": 0.1880952380952381,
+   "recall_metal": 0.5037974683544304,
+   "recall_paper": 0.646,
+   "recall_plastic": 0.4766558089033659,
+   "recall_trash": 0.23636363636363636
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 329,
+   "recyclable_to_trash_rate": 0.10640362225097025,
+   "r2t_lo": 0.09605991840362549,
+   "r2t_hi": 0.11706127356737851,
+   "trash_to_recycling": 409,
+   "trash_to_recycling_rate": 0.8262626262626263,
+   "t2r_lo": 0.7926066800951957,
+   "t2r_hi": 0.8585514694452285,
+   "wrong_material": 1428,
+   "wrong_material_rate": 0.46183699870633893,
+   "wm_lo": 0.44408450573682784,
+   "wm_hi": 0.47898803055286404,
+   "recall_cardboard": 0.3036876355748373,
+   "recall_glass": 0.14523809523809525,
+   "recall_metal": 0.6075949367088608,
+   "recall_paper": 0.736,
+   "recall_plastic": 0.31053203040173727,
+   "recall_trash": 0.17373737373737375
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 348,
+   "recyclable_to_trash_rate": 0.11254851228978008,
+   "r2t_lo": 0.1015422897413373,
+   "r2t_hi": 0.12383101880550385,
+   "trash_to_recycling": 404,
+   "trash_to_recycling_rate": 0.8161616161616162,
+   "t2r_lo": 0.7825242877006531,
+   "t2r_hi": 0.849372386932373,
+   "wrong_material": 1359,
+   "wrong_material_rate": 0.43952134540750326,
+   "wm_lo": 0.4225778132677078,
+   "wm_hi": 0.4567030072212219,
+   "recall_cardboard": 0.22342733188720174,
+   "recall_glass": 0.2119047619047619,
+   "recall_metal": 0.6835443037974683,
+   "recall_paper": 0.692,
+   "recall_plastic": 0.3333333333333333,
+   "recall_trash": 0.18383838383838383
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 502,
+   "recyclable_to_trash_rate": 0.16235446313065977,
+   "r2t_lo": 0.14977184310555458,
+   "r2t_hi": 0.17509711906313896,
+   "trash_to_recycling": 348,
+   "trash_to_recycling_rate": 0.703030303030303,
+   "t2r_lo": 0.6634221956133842,
+   "t2r_hi": 0.7416666746139526,
+   "wrong_material": 1156,
+   "wrong_material_rate": 0.3738680465717982,
+   "wm_lo": 0.3570010423660278,
+   "wm_hi": 0.39048222526907916,
+   "recall_cardboard": 0.27331887201735355,
+   "recall_glass": 0.30952380952380953,
+   "recall_metal": 0.7506329113924051,
+   "recall_paper": 0.67,
+   "recall_plastic": 0.2714440825190011,
+   "recall_trash": 0.296969696969697
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 589,
+   "recyclable_to_trash_rate": 0.1904915912031048,
+   "r2t_lo": 0.17696562372148036,
+   "r2t_hi": 0.20453993678092955,
+   "trash_to_recycling": 333,
+   "trash_to_recycling_rate": 0.6727272727272727,
+   "t2r_lo": 0.6331139668822289,
+   "t2r_hi": 0.7154929652810096,
+   "wrong_material": 1090,
+   "wrong_material_rate": 0.352522639068564,
+   "wm_lo": 0.3365525953471661,
+   "wm_hi": 0.36782858371734617,
+   "recall_cardboard": 0.210412147505423,
+   "recall_glass": 0.2976190476190476,
+   "recall_metal": 0.5822784810126582,
+   "recall_paper": 0.68,
+   "recall_plastic": 0.4245385450597177,
+   "recall_trash": 0.32727272727272727
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 1002,
+   "recyclable_to_trash_rate": 0.3240620957309185,
+   "r2t_lo": 0.30754105374217033,
+   "r2t_hi": 0.339361122995615,
+   "trash_to_recycling": 260,
+   "trash_to_recycling_rate": 0.5252525252525253,
+   "t2r_lo": 0.48124999850988387,
+   "t2r_hi": 0.5691088125109672,
+   "wrong_material": 907,
+   "wrong_material_rate": 0.29333764553686936,
+   "wm_lo": 0.2775223545730114,
+   "wm_hi": 0.3090089961886406,
+   "recall_cardboard": 0.17787418655097614,
+   "recall_glass": 0.2619047619047619,
+   "recall_metal": 0.39746835443037976,
+   "recall_paper": 0.63,
+   "recall_plastic": 0.3930510314875136,
+   "recall_trash": 0.47474747474747475
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 326,
+   "recyclable_to_trash_rate": 0.1054333764553687,
+   "r2t_lo": 0.0947121750563383,
+   "r2t_hi": 0.11585830375552177,
+   "trash_to_recycling": 375,
+   "trash_to_recycling_rate": 0.7575757575757576,
+   "t2r_lo": 0.7205505803227424,
+   "t2r_hi": 0.7934073477983474,
+   "wrong_material": 1242,
+   "wrong_material_rate": 0.4016817593790427,
+   "wm_lo": 0.3855964854359627,
+   "wm_hi": 0.4174830935895443,
+   "recall_cardboard": 0.15835140997830802,
+   "recall_glass": 0.36428571428571427,
+   "recall_metal": 0.7227848101265822,
+   "recall_paper": 0.778,
+   "recall_plastic": 0.36699239956568946,
+   "recall_trash": 0.24242424242424243
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 416,
+   "recyclable_to_trash_rate": 0.13454075032341525,
+   "r2t_lo": 0.12338390909135341,
+   "r2t_hi": 0.1464529950171709,
+   "trash_to_recycling": 387,
+   "trash_to_recycling_rate": 0.7818181818181819,
+   "t2r_lo": 0.7465715035796165,
+   "t2r_hi": 0.8164948225021362,
+   "wrong_material": 1111,
+   "wrong_material_rate": 0.3593143596377749,
+   "wm_lo": 0.3420947201550007,
+   "wm_hi": 0.3754015378654003,
+   "recall_cardboard": 0.16268980477223427,
+   "recall_glass": 0.35714285714285715,
+   "recall_metal": 0.6329113924050633,
+   "recall_paper": 0.816,
+   "recall_plastic": 0.46905537459283386,
+   "recall_trash": 0.21818181818181817
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 374,
+   "recyclable_to_trash_rate": 0.12095730918499353,
+   "r2t_lo": 0.1102143507450819,
+   "r2t_hi": 0.13281804211437703,
+   "trash_to_recycling": 382,
+   "trash_to_recycling_rate": 0.7717171717171717,
+   "t2r_lo": 0.7358093291521073,
+   "t2r_hi": 0.8076227337121963,
+   "wrong_material": 1084,
+   "wrong_material_rate": 0.35058214747736094,
+   "wm_lo": 0.33300614878535273,
+   "wm_hi": 0.3660629041492939,
+   "recall_cardboard": 0.18872017353579176,
+   "recall_glass": 0.4642857142857143,
+   "recall_metal": 0.7708860759493671,
+   "recall_paper": 0.708,
+   "recall_plastic": 0.4223669923995657,
+   "recall_trash": 0.22828282828282828
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 301,
+   "recyclable_to_trash_rate": 0.09734799482535576,
+   "r2t_lo": 0.08699690531939268,
+   "r2t_hi": 0.10784638207405806,
+   "trash_to_recycling": 346,
+   "trash_to_recycling_rate": 0.6989898989898989,
+   "t2r_lo": 0.6587395384907723,
+   "t2r_hi": 0.7391325682401657,
+   "wrong_material": 903,
+   "wrong_material_rate": 0.2920439844760673,
+   "wm_lo": 0.2760934293270111,
+   "wm_hi": 0.3079703040421009,
+   "recall_cardboard": 0.5466377440347071,
+   "recall_glass": 0.4238095238095238,
+   "recall_metal": 0.8417721518987342,
+   "recall_paper": 0.618,
+   "recall_plastic": 0.5255157437567861,
+   "recall_trash": 0.301010101010101
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 215,
+   "recyclable_to_trash_rate": 0.06953428201811125,
+   "r2t_lo": 0.06032004840672016,
+   "r2t_hi": 0.07875823061913252,
+   "trash_to_recycling": 351,
+   "trash_to_recycling_rate": 0.7090909090909091,
+   "t2r_lo": 0.6685280874371529,
+   "t2r_hi": 0.7483905836939811,
+   "wrong_material": 967,
+   "wrong_material_rate": 0.3127425614489004,
+   "wm_lo": 0.2959570221602917,
+   "wm_hi": 0.32850557863712304,
+   "recall_cardboard": 0.42733188720173537,
+   "recall_glass": 0.34285714285714286,
+   "recall_metal": 0.7632911392405063,
+   "recall_paper": 0.672,
+   "recall_plastic": 0.6840390879478827,
+   "recall_trash": 0.2909090909090909
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 172,
+   "recyclable_to_trash_rate": 0.055627425614489,
+   "r2t_lo": 0.04737198613584041,
+   "r2t_hi": 0.06343066450208426,
+   "trash_to_recycling": 381,
+   "trash_to_recycling_rate": 0.7696969696969697,
+   "t2r_lo": 0.7321655094623566,
+   "t2r_hi": 0.806263592839241,
+   "wrong_material": 1074,
+   "wrong_material_rate": 0.3473479948253558,
+   "wm_lo": 0.3299909636378288,
+   "wm_hi": 0.3636089935898781,
+   "recall_cardboard": 0.3405639913232104,
+   "recall_glass": 0.38095238095238093,
+   "recall_metal": 0.7367088607594937,
+   "recall_paper": 0.792,
+   "recall_plastic": 0.5982627578718784,
+   "recall_trash": 0.23030303030303031
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 381,
+   "recyclable_to_trash_rate": 0.12322121604139716,
+   "r2t_lo": 0.11189636848866939,
+   "r2t_hi": 0.13498537242412567,
+   "trash_to_recycling": 334,
+   "trash_to_recycling_rate": 0.6747474747474748,
+   "t2r_lo": 0.633257332444191,
+   "t2r_hi": 0.7139833807945252,
+   "wrong_material": 974,
+   "wrong_material_rate": 0.315006468305304,
+   "wm_lo": 0.2986468970775604,
+   "wm_hi": 0.33204135298728943,
+   "recall_cardboard": 0.21691973969631237,
+   "recall_glass": 0.45,
+   "recall_metal": 0.7253164556962025,
+   "recall_paper": 0.816,
+   "recall_plastic": 0.507057546145494,
+   "recall_trash": 0.32525252525252524
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "n_recyclable": 3092,
+   "n_trash": 495,
+   "recyclable_to_trash": 283,
+   "recyclable_to_trash_rate": 0.09152652005174644,
+   "r2t_lo": 0.08156395088881255,
+   "r2t_hi": 0.10192124769091607,
+   "trash_to_recycling": 374,
+   "trash_to_recycling_rate": 0.7555555555555555,
+   "t2r_lo": 0.7186219453811645,
+   "t2r_hi": 0.7942415907979011,
+   "wrong_material": 912,
+   "wrong_material_rate": 0.2949547218628719,
+   "wm_lo": 0.27843947559595106,
+   "wm_hi": 0.31080283373594286,
+   "recall_cardboard": 0.28633405639913234,
+   "recall_glass": 0.42857142857142855,
+   "recall_metal": 0.8468354430379746,
+   "recall_paper": 0.71,
+   "recall_plastic": 0.6091205211726385,
+   "recall_trash": 0.24444444444444444
+  }
+ ],
+ "error_cost": [
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 247.9788123780318
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 434.9038193476443
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 808.7538332868693
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 1556.4538611653193
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 217.1731251742403
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 362.41984945637023
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 652.91329802063
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 1233.9001951491498
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 197.7976024533036
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 306.66294954000557
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 524.3936437134096
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 959.8550320602175
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 162.53136325620295
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 225.81544466127684
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 352.38360747142457
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 605.5199330917201
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 178.5614719821578
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 282.6874825759688
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 490.9395037635907
+  },
+  {
+   "model": "M2 ResNet-18",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 907.4435461388347
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 174.51909673822135
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 253.69389461945917
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 412.04349038193476
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 728.742681906886
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 164.3434625034848
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 223.3063841650404
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 341.23222748815164
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 577.0839141343741
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 159.88291051017563
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 205.74296069138555
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 297.4630610538054
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 480.9032617786451
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 161.13744075829385
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 209.64594368553108
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 306.66294954000557
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 500.69696124895455
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 166.99191524951212
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 236.96682464454977
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 376.91664343462503
+  },
+  {
+   "model": "M2b ResNet-18 (full-FT)",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 656.8162810147755
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 174.9372734875941
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 257.03930861444104
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 421.2433788681349
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 749.6515193755228
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 212.15500418176748
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 351.82603847226096
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 631.1681070532478
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 1189.8522442152216
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 149.98606077502092
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 195.4279342068581
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 286.3116810705325
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 468.07917479788125
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 165.87677725118485
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 223.86395316420408
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 339.83830499024253
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 571.7870086423195
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 158.62838026205742
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 210.76108168385838
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 315.0264845274603
+  },
+  {
+   "model": "M3 MobileNetV3-L",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 523.557290214664
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 138.41650404237524
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 180.37357122943965
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 264.28770560356844
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-orig",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 432.115974351826
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 127.82269305826595
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 157.79202676331195
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 217.73069417340395
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-jitter",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 337.60802899358794
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 130.19236130471145
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 154.16782826874825
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 202.11876219682185
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-paste",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 298.02063005296907
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 146.2224700306663
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 199.33091720100361
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 305.5478115416783
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-shuffle",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 517.9816002230276
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 0.5,
+   "cost_per_1000": 143.7134095344299
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 1.0,
+   "cost_per_1000": 183.16141622525788
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 2.0,
+   "cost_per_1000": 262.05742960691384
+  },
+  {
+   "model": "M4 Swin-T",
+   "regime": "T-rand",
+   "ratio_lost_to_contam": 4.0,
+   "cost_per_1000": 419.8494563702258
+  }
+ ],
+ "realwaste_duplicates": {
+  "n_images": 3587,
+  "n_groups": 3586,
+  "multi_member_groups": 1,
+  "images_in_multi_groups": 2,
+  "largest_group": 2,
+  "label_conflicts": 0,
+  "hash_pairs": 1
+ }
+}

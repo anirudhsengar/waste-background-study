@@ -1,0 +1,8 @@
+cls,TrashNet,RealWaste (6-class)
+cardboard,403,461
+glass,501,420
+metal,410,790
+paper,594,500
+plastic,482,921
+trash,137,495
+total,2527,3587

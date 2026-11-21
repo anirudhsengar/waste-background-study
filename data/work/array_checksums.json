@@ -1,0 +1,17 @@
+{
+ "trashnet_frames.npy": "3ccf1229b5d857f1a64e89464cc37479",
+ "realwaste_frames.npy": "555d5d8a3cd97040e76f12c266ab26c2",
+ "dtd_train_256.npy": "12c0dfba2f2d9e68ac9d49451a518a05",
+ "variants/train_alpha.npy": "a5fce90f892789618b580c07e8e9ea3e",
+ "variants/train_ONLY_BG_T.npy": "cd781cc808598793043558e00ef9e565",
+ "variants/train_ONLY_BG_FIXED.npy": "d3d27849ecee35d7627e89c2787e9390",
+ "variants/val_ONLY_BG_T.npy": "c8c0f59b973bdb74fd4bc91db3f83c9d",
+ "variants/test_ONLY_BG_FIXED.npy": "bb499f028bcdaab378afe93a20b680a7",
+ "variants/test_base_MIXED_RAND_0.npy": "c70726e9d93a37ede5e426bdb048d042",
+ "variants6/train_fg_alpha.npy": "59a4929b5511f53505b10cc00e971972",
+ "variants6/train_ONLY_BG_T.npy": "5ba36e958002dca313a56ca7af0d3491",
+ "variants6/val_ONLY_BG_T.npy": "0bc18bbd12f4a82dfaa33b89a1383d4a",
+ "variants6/test_base_ORIGINAL.npy": "abadb157277cf04f3b6d778a58841099",
+ "variants6/test_base_MIXED_RAND_0.npy": "340260d2c54ed91a0fc521138a6d5fc4",
+ "variants6/test_ONLY_BG_CORNERS.npy": "9be5e1ebaa232988708f1072a6ba5d98"
+}

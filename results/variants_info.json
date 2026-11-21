@@ -1,0 +1,32 @@
+{
+ "fixed_box_y0y1x0x1": [
+  16,
+  208,
+  16,
+  208
+ ],
+ "train_eligible": 637,
+ "train_fixedbox_kept": 155,
+ "train_fixedbox_kept_by_class": {
+  "metal": 47,
+  "plastic": 42,
+  "glass": 37,
+  "trash": 29
+ },
+ "val_eligible": 153,
+ "val_fixedbox_kept": 46,
+ "val_fixedbox_kept_by_class": {
+  "metal": 14,
+  "glass": 13,
+  "plastic": 10,
+  "trash": 9
+ },
+ "test_eligible": 152,
+ "test_fixedbox_kept": 35,
+ "test_fixedbox_kept_by_class": {
+  "metal": 15,
+  "plastic": 8,
+  "glass": 6,
+  "trash": 6
+ }
+}

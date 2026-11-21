@@ -1,0 +1,4 @@
+,images,md5_pairs,hash_pairs,pose_pairs_confirmed,dup_groups,images_in_dup_groups,cross_class_exact_pairs,dropped_for_label_conflict,our_groups,their_groups,identical_groups,our_pairs,their_pairs,shared_pairs
+trashnet,2527.0,3.0,26.0,56.0,67.0,149.0,3.0,6.0,,,,,,
+realwaste,3587.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,,,,,,
+agreement_with_prayitno_putra,,,,,,,,,67.0,39.0,34.0,114.0,41.0,35.0

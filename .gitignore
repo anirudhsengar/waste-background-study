@@ -1,0 +1,50 @@
+# Secrets
+.env
+.env.*
+
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw and extracted third-party data (fetched by scripts/download_data.sh)
+data/raw/
+data/ext/
+
+# Derived arrays and scratch output in data/work (only the small tables below are tracked)
+data/work/*
+!data/work/*.csv
+!data/work/*.json
+!data/work/u2net_masks_packed.npy
+data/work/u2net_full_stats.csv
+data/work/trashnet_hash_pairs.csv
+data/work/trashnet_embedding_candidates.csv
+!data/work/mask_check/
+data/work/mask_check/*
+!data/work/mask_check/order.csv
+!data/work/variants/
+data/work/variants/*
+!data/work/variants/*.csv
+!data/work/variants/*.json
+!data/work/variants/*_fixedbox_keep.npy
+!data/work/variants6/
+data/work/variants6/*
+!data/work/variants6/*.csv
+!data/work/variants6/*.json
+
+# Outputs that are not part of the paper
+results/ckpts/
+results/*.log
+results/figures/*
+!results/figures/icasf_fig1_protocol.png
+!results/figures/icasf_fig2_shortcuts.png
+!results/figures/icasf_fig3_transfer.png
+*.pt
+*.pth
+*.onnx
+*.zip
+*.tar
+*.tar.gz

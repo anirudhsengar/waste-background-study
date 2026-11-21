@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or the shipped predictions, please cite the paper below."
+title: "How Much Does the Background Matter in Waste Classification? A Background-Swap Study on TrashNet with External Evaluation on RealWaste"
+type: software
+authors:
+  - family-names: Sengar
+    given-names: Anirudh
+    affiliation: "Department of Computer Science, Faculty of Engineering and IT, The British University in Dubai, Dubai, United Arab Emirates"
+  - family-names: Altaf
+    given-names: Suleiman
+    affiliation: "Department of Computer Science, Faculty of Engineering and IT, The British University in Dubai, Dubai, United Arab Emirates"
+  - family-names: Alkhatib
+    given-names: Manar
+    affiliation: "Department of Computer Science, Faculty of Engineering and IT, The British University in Dubai, Dubai, United Arab Emirates"
+repository-code: "https://github.com/anirudhsengar/waste-background-study"
+license: MIT
+keywords:
+  - waste classification
+  - shortcut learning
+  - counterfactual evaluation
+  - background randomisation
+  - circular economy
+preferred-citation:
+  type: conference-paper
+  title: "How Much Does the Background Matter in Waste Classification? A Background-Swap Study on TrashNet with External Evaluation on RealWaste"
+  authors:
+    - family-names: Sengar
+      given-names: Anirudh
+      affiliation: "Department of Computer Science, Faculty of Engineering and IT, The British University in Dubai, Dubai, United Arab Emirates"
+    - family-names: Altaf
+      given-names: Suleiman
+      affiliation: "Department of Computer Science, Faculty of Engineering and IT, The British University in Dubai, Dubai, United Arab Emirates"
+    - family-names: Alkhatib
+      given-names: Manar
+      affiliation: "Department of Computer Science, Faculty of Engineering and IT, The British University in Dubai, Dubai, United Arab Emirates"
+  collection-title: "ICASF 2027"
+  conference:
+    name: "ICASF 2027"
+  year: 2027
+  notes: "To appear."
